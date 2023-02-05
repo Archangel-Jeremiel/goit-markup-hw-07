@@ -1,14 +1,18 @@
-.section-area-​​work {
+.area-​​work {
   @extend %section;
 }
 
-.area-​​work__list {
+.area-​​work__container {
+  @extend %container;
+}
+
+.area-​​work-list {
   @extend %list;
   display: flex;
   padding-left: 0px;
 }
 
-.area-​​work {
+.area-​​work__container {
   @extend %container;
 }
 
